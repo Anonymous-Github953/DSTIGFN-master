@@ -12,7 +12,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
 
 from utils import *
 from ranger21 import Ranger
-from model.DSTIGFN_new import DSTIGFN
+from model.DSTIGFN import DSTIGFN
 
 
 class trainer:
